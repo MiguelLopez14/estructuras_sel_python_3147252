@@ -39,3 +39,9 @@ Jerarquia de Precedencia de operadores
 y = False and not True or False
 
 print ("El resultado de operar con jerarquia de operacion es" ,y)
+
+
+#Ejemplo 5: Operadores relacionales y logicos
+
+y = not 3 > 4 and 4 == 4 or 3 < 2
+print ("El resultado de operar con relacionales y logicos es", y)
