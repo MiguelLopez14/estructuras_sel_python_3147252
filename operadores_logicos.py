@@ -45,3 +45,20 @@ print ("El resultado de operar con jerarquia de operacion es" ,y)
 
 y = not 3 > 4 and 4 == 4 or 3 < 2
 print ("El resultado de operar con relacionales y logicos es", y)
+
+#Ejemplo 6: Operadores Aritmeticos, relacionales y logicos
+
+y = 3 + 5 * 2 > 3 and 4 == 4 or 3 < 2
+print ("El resultado de operar con aritmeticos, relacionales y logicos es", y)
+
+#Ejemplo 7: con parentesis
+
+y = (3 + 5) * (2 > 3) and 4 == 4 or not 3 < 2
+print ("El resultado de operar con parentesis es", y)
+
+#Ejemplo 8: Todo Junto
+
+y = 4 ** 2 * 3 < 6 / (7 - 5) and 7 * 2 + 1 == 14 or not 3 + 5 < 2
+print ("El resultado de operar todo junto es", y)
+
+
